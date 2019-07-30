@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:12-alpine
 
 RUN apk add --no-cache --update-cache git ffmpeg && \
     npm install FallingSnow/h265ize --global --no-optional && \
